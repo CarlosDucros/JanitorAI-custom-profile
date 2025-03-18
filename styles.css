@@ -1,0 +1,132 @@
+<style>
+
+
+ *{
+   font-family: "Arial";
+   font-weight: 500;
+   }
+ 
+ .css-p641ht {
+     background: #5b6647;
+     box-shadow: none;
+     backdrop-filter: none;
+     bottom: 0;
+     width: 80%;
+     left: 10%;
+     border-top-right-radius: 70px;
+     border-top-left-radius: 70px;
+ }
+
+input::placeholder{
+  color:#2b2b2b; !important
+}
+
+.css-j1p8gu svg {
+   color:#2b2b2b; 
+}
+ 
+ .css-18bnokj{
+   mask-image: linear-gradient(#FFBBD2 80%, transparent 100%);
+   -webkit-mask-repeat: no-repeat;
+   -webkit-mask-size: 100%;
+   transition: 0.8s allease;
+   box-shadow: none;
+   border-radius: 40px, 40px, 0, 0;
+   object-position: 50% 20%;
+   height: 800px;
+   width: 1000px;
+ }
+ 
+ .css-1747r9t{
+   display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ 
+ .css-1uodvt1 {
+     display: flex;
+     justify-items: center;
+     -webkit-box-align: center;
+     align-items: center;
+     text-align: center;
+     flex-direction: column;
+     gap: var(--chakra-space-2);
+ }
+ 
+ .css-e8xvxi{
+     padding: 3px;
+ }
+ 
+ .glow-logo{
+     backdrop-filter:blur(2px);
+   background: none;
+   box-shadow: none;
+   border:none;
+ }
+ .css-bda9ez {
+     text-indent: -9999px;
+     line-height: 0;
+ }
+ .css-1qj3ulc, .css-y22oxy {
+   text-indent: -9999px;
+     line-height: 0;
+ }
+ .css-1qj3ulc::after{
+   content: "Pink Area";
+     text-indent: 0;
+     display: block;
+     line-height: initial;
+     font-family: "Arial";
+     text-transform: full-width;
+     font-variant: small-caps;
+     font-size: 2.5rem;
+     color: #2b2b2b;
+     text-align: left;
+     text-decoration: 3px underline #ffccd8;
+     text-underline-offset: 8px;
+     text-shadow: 1px 1px 0 #ffccd8, 1px 1px 0 #ffccd8, 1px 1px 0 #ffccd8, 1px 1px 0 #ffccd8;transition: 0.5s allease;
+ }
+ 
+ .css-y22oxy::after{
+   content: "My darlings";
+   text-indent: 0;
+     display: block;
+     line-height: initial;
+     color: #2b2b2b;
+     text-decoration: none !important;
+     text-transform: uppercase;
+     font-weight: 800;
+     letter-spacing: -1px;
+     font-family: "Arial";
+ }
+ 
+ .css-p641ht{
+ background-image: radial-gradient(#94B9DD 3px, transparent 3px), radial-gradient(#94B9DD 3px, transparent 3px);
+ background-size: 38px 38px;
+ background-position: 0 0, 19px 19px;
+ background-color: #2b2b2b;
+ }
+
+ .css-i6srjg {
+  background-color: #ffccd8;
+  
+ }
+
+button{
+  background-color: none;
+}
+.css-fss3o9{
+  background: none;
+  background-color: #ffccd8;
+}
+
+.css-fss3o9:hover{
+  background-color: #fad9e1;
+}
+
+
+.glow-on-hover::before, .glow-on-hover:after, .glow-on-hover {
+    background: none !important;
+
+}
+</style>
