@@ -20,8 +20,18 @@
 input::placeholder{
   color:#2b2b2b; }
 
-.css-j1p8gu svg {
-   color:#2b2b2b; 
+  .css-fss3o9, .css-1n2in4t{
+    background: none;
+    background-color: #ffccd8;
+  }
+  
+  .css-fss3o9:hover{
+    background-color: #fad9e1;
+  }
+  
+
+.css-j1p8gu svg, .css-1n2in4t svg {
+   color:#2b2b2b !important; 
 }
  
  .css-18bnokj{
@@ -72,7 +82,7 @@ input::placeholder{
  }
  
  .glow-logo{
-     backdrop-filter:blur(2px);
+     backdrop-filter:blur(1px);
    background: none;
    box-shadow: none;
    border:none;
@@ -82,17 +92,16 @@ input::placeholder{
      text-indent: -9999px;
      line-height: 0;
  }
- .css-1qj3ulc, .css-y22oxy {
+ .css-e8xvxi, .css-1jj3srb {
    text-indent: -9999px;
      line-height: 0;
  }
- .css-1qj3ulc::after{
+ .css-e8xvxi h2::after{
    content: "Pink Area";
      text-indent: 0;
      display: block;
      line-height: initial;
      font-family: "Arial";
-     text-transform: full-width;
      font-variant: small-caps;
      font-size: 2.5rem;
      color: #2b2b2b;
@@ -101,18 +110,32 @@ input::placeholder{
      text-underline-offset: 8px;
      text-shadow: 3px 0px 0 #ffccd8, 4px 2px 0 #ffccd8, 3px 0px 0 #ffccd8, 3px 0px 0 #ffccd8;
    transition: 0.5s allease;
+   width: 200px;
  }
+
+.css-e8xvxi p::after{
+  display: none;
+  
+}
+
+.css-1jj3srb{
+
+  width:250px;
+}
  
- .css-y22oxy::after{
-   content: "My Darlings";
-   text-indent: 0;
-     display: block;
-     line-height: initial;
-     color: #2b2b2b;
-     text-decoration: none !important;
-     font-weight: 800;
-     letter-spacing: -1px;
-     font-family: "Arial";
+ .css-1jj3srb::after{
+  content: "My Darlings~";
+  text-indent: 0;
+  display: block;
+  line-height: initial;
+  color: #2b2b2b;
+  text-decoration: none !important;
+  font-weight: 800;
+  letter-spacing: -1px;
+  font-family: "Arial";
+  
+  font-size: 26px;
+  width: 250px;
  }
  
  .css-p641ht{
@@ -129,14 +152,6 @@ input::placeholder{
 
 button{
   background-color: none;
-}
-.css-fss3o9{
-  background: none;
-  background-color: #ffccd8;
-}
-
-.css-fss3o9:hover{
-  background-color: #fad9e1;
 }
 
 
@@ -199,4 +214,144 @@ button{
   justify-content: center;
 }
 
+.css-13cymwt-control{
+  border-color: none !important;
+  background-color: #ffccd8;
+
+}
+
+.css-1dimb5e-singleValue{
+  color:#2b2b2b !important;
+}
+
+.css-8mmkcg {
+  fill: #2b2b2b;
+}
+
+.css-qr46ko{
+  background-color: #ffccd8;
+  border-radius: 8px !important;
+  border:none !important;
+  text-align: center;
+}
+
+.transparent .react-select__option {
+  background-color: transparent !important;
+  color: #2b2b2b !important;
+  font-family: "Arial";
+}
+.react-select__option--is-selected{
+  background-color: pink !important;
+}
+.transparent .react-select__control {
+  background: #ffccd8;
+  border-radius: 4px;
+  border:none;
+}
+
+.css-1nmdiq5-menu{
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.css-gg4gki::after {
+    content: ' lorem lorem';
+    color: #2b2b2b;
+}
+
+.css-i3ef4m{
+  border: none !important;
+  background: none !important;
+}
+
+.css-1y3jyt3{
+  background: none !important;
+  box-shadow: none !important;
+}
+
+
+.css-1n0er3b{
+  gap:0.2rem;
+  margin-right: 0px !important;
+}
+
+.css-0, .css-dltla, .css-1jf56se, .css-1sxhvxh{
+  background: none !important;
+}
+
+.css-2n7zf2 > div > div:not(:first-child):not(:last-child) > div {
+  height: 55%;
+    transition-duration: 0.6s;
+}
+
+.css-2n7zf2 > div > div:not(:first-child):not(:last-child) > div:hover{
+  transition-duration: 0.6s;
+    height: 100%;
+}
+
+.css-199gcrh {
+transition-duration: 0.1s;
+    opacity: 0;
+}
+
+.css-2n7zf2 > div > div:not(:first-child):not(:last-child) > div:hover *:not(._ribbon_1chl9_1) {
+transition-duration: 0.6s;
+    transition-delay: 0.2s;
+    opacity: 1;
+}
+
+.css-1lgnt2x{
+  display: none;
+}
+
+@media (max-width: 967px) {
+  .css-p641ht{
+    width: 100%;
+    left: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+}
+
+.container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 800px;
+        margin: auto;
+      }
+      .text {
+        flex: 1;
+        padding-right: 20px;
+        text-align: justify;
+      }
+      .image {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+      }
+      .image img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      
+
 </style>
+
+<div class="container">
+      <div class="text">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+      <div class="image">
+        <img src="https://ella.janitorai.com/profile-pics/UahM2xIvK8Ma77ETb8jtm.webp?width=1000">
+      </div>
+    </div>
